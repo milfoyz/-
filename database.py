@@ -1186,3 +1186,10 @@ def get_user_referral_rank_formatted(user_id, period):
                     if user_referral_count > 0 else f"<b>🚫 Ты не попал в топ!</b> | <code>{user_referral_count}</code> рефералов.")
         except Exception as e:
             return f"Ошибка при получении вашего места в топе: {e}"
+
+def delete_utm_from_db(url: str):
+    with sqlite3.connect(DATABASE_NAME) as conn:
+        cursor = conn.cursor()
+        cursor.execute("DELETE FROM utm_data WHERE url = ?", (url,))
+        conn.commit()
+        return True
