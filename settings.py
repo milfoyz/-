@@ -5,7 +5,7 @@ admins_id = [8207246901]
 SUBGRAM_TOKEN = "8ad969e0cdf4fcc82a48301d678ac9001afc0fbb11bb28966f0457155eca9344" 
 HIVIEWS_TOKEN = "8934BDN9327V3PB1JDVXB"
 TGRASS_TOKEN = '7b76018d21f8424fb5edd665f79d50eb'
-
+PIARFLOW_TOKEN = 'ZAw3rMjKvqworVBa1p8sFomRxklfLGoH'
 
 admin_username = "@temik_gaz" #свой username
 admin_link = "https://t.me/temik_gaz"
