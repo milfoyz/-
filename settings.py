@@ -1,4 +1,4 @@
-TOKEN = "8836893501:AAHDY1G_m4SDUXzTw8XxGhJOepUYNhn-kiE" #сюда токен бота
+TOKEN = "8836893501:AAHDY1G_m4SDUXzTw8XxGhJOepUYNhn-kiE" 
 
 admins_id = [8207246901]
 
@@ -7,7 +7,7 @@ HIVIEWS_TOKEN = "8934BDN9327V3PB1JDVXB"
 TGRASS_TOKEN = '7b76018d21f8424fb5edd665f79d50eb'
 PIARFLOW_TOKEN = 'ZAw3rMjKvqworVBa1p8sFomRxklfLGoH'
 
-admin_username = "@temik_gaz" #свой username
+admin_username = "@temik_gaz" 
 admin_link = "https://t.me/temik_gaz"
 
 GIFT_AMOUNT = 1.0 # ежедневый гифт
