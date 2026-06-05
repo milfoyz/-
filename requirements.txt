@@ -1,0 +1,15 @@
+# Telegram Bot Requirements
+# Python 3.8+
+
+# Core Bot Framework
+aiogram==3.4.1
+aiohttp==3.9.1
+
+# Database
+asyncpg==0.29.0
+
+# Task Scheduling
+APScheduler==3.10.4
+
+# Optional but useful
+python-dotenv==1.0.0
