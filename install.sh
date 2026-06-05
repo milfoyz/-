@@ -323,7 +323,7 @@ EOF
     echo ""
     echo "   Необходимые переменные:"
     echo "   - BOT_TOKEN (получите у @BotFather)"
-    echo "   - TGRASS_TOKEN (получите в @tgrassbot)"
+    echo "   - FLYER_TOKEN (с https://flyerservice.io)"
     echo "   - DB_HOST, DB_USER, DB_PASSWORD (если используется БД)"
     echo ""
     echo "2️⃣  Включите автозапуск сервиса:"
@@ -339,7 +339,7 @@ EOF
     echo "   sudo journalctl -u refstarbot.service -f"
     echo ""
     echo "6️⃣  Должны увидеть в логах:"
-    echo "   Tgrass API готов к работе"
+    echo "   ✅ Flyer API инициализирован успешно"
     echo ""
     print_success "Готово! Заполните .env и запустите бота 🚀"
 }
